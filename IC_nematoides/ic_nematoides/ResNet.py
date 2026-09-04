@@ -184,7 +184,7 @@ def train_model_optimized(model, train_loader, val_loader, num_epochs=30,
     model = model.to(device)
     
     # Loss, optimizer e scheduler
-    criterion = nn.CrossEntropyLoss()
+    criterion = nn.CrossEntropyLoss(label_smoothing=0.1)
     optimizer = optim.Adam(filter(lambda p: p.requires_grad, model.parameters()), 
                           lr=learning_rate, weight_decay=1e-4)
     scheduler = lr_scheduler.ReduceLROnPlateau(optimizer, mode='max', factor=0.5, 
