@@ -372,7 +372,7 @@ def complete_training_pipeline():
     """Pipeline completo otimizado"""
     
     CONFIG = {
-        'train_dir': "C:\\Users\\Adalto.S\\Documents\\I-Nema\\train",
+        'train_dir': "C:\\Users\\\Adalto.S\\Documents\\I-Nema\\train_balanced",
         'val_dir': "C:\\Users\\Adalto.S\\Documents\\I-Nema\\val",
         'num_epochs': 50 if device.type == 'cuda' else 12,
         'batch_size': 32 if device.type == 'cuda' else 16,
