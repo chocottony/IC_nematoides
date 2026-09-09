@@ -222,6 +222,7 @@ __marimo__/
 #Arquivos/pastas locais
 IC_nematoides/results/
 IC_nematoides/kaggle
+IC_nematoides/ic_nematoides/ResNet.py
 
 # VSCode
 .vscode/
