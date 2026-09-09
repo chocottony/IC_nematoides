@@ -222,4 +222,7 @@ __marimo__/
 #Arquivos/pastas locais
 IC_nematoides/results/
 IC_nematoides/kaggle
-Projeto_IC/Projeto_IC.code-workspace
+
+# VSCode
+.vscode/
+*.code-workspace
